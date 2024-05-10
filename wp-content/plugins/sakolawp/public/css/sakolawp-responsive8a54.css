@@ -1,0 +1,217 @@
+/*-----------------------------------------------------------------------------------*/
+/*  Max Width 1366px
+/*-----------------------------------------------------------------------------------*/
+@media only screen and (max-width: 1366px) {
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Max Width 1280px
+/*-----------------------------------------------------------------------------------*/
+@media only screen and (max-width: 1280px) {
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Max Width 1024px
+/*-----------------------------------------------------------------------------------*/
+@media only screen and (max-width: 1024px) {
+
+	.skwp-user-area {
+		padding: 10px 20px;
+	}
+
+	.skwp-menu-item a {
+		padding: 12px 20px;
+	}
+
+	.sakolawp-inner-content {
+		padding: 20px;
+	}
+
+	.skwp-navigation-inner .skwp-user-img img {
+		width: 60px;
+   		height: 60px;
+	}
+
+	.skwp-back i {
+		font-size: 12px;
+	}
+
+	.skwp-back a {
+		padding: 7px 15px;
+		font-size: 15px;
+	}
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Max Width 768px
+/*-----------------------------------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+
+	.skwp-column-main {
+		width: 100%;
+	}
+
+	.skwp-column-2 {
+		-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+
+	.skwp-column-3 {
+		-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+
+	.skwp-column-4 {
+		-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+
+	.skwp-column-5 {
+		-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+
+	.skwp-column-6 {
+		-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+
+	.ulangan-card .analisis-detail .card {
+		margin-bottom: 0;
+	}
+
+	.ulangan-card-inner .ulangan-info .skwp-column {
+		margin-bottom: 0;
+	}
+
+	.ulangan-card-inner .analisis-ulangan .skwp-column {
+		margin-bottom: 20px;
+	}
+
+	.skwp-column-nav {
+	    width: 250px;
+	    height: 100vh;
+	    position: fixed;
+	    top: 0;
+	    left: 0;
+	    transform: translate3d(-300px, 0px, 0px);
+	    padding: 0;
+	    z-index: 23456;
+	    background: #fff;
+	    transition: transform .3s ease-in-out;
+	}
+
+	.skwp-column-nav.open {
+	    transform: translate3d(0px, 0px, 0px);
+	    z-index: 12;
+	    transition: transform .3s ease-in-out;
+	}
+
+	.skwp-menu-btn {
+		width: 40px;
+	    height: 40px;
+	    position: fixed;
+	    top: 100px;
+	    left: 0;
+	    cursor: pointer;
+	    transition: transform .3s ease-in-out;
+	    background: #fff;
+	    box-shadow: 0px 0px 10px -2px #aaa;
+	    z-index: 13;
+	    border-top-right-radius: 5px;
+	    border-bottom-right-radius: 5px;
+	    transition: all .3s ease-in-out;
+	}
+
+	.skwp-menu-btn.active {
+		left: 250px;
+	    box-shadow: 0px 0px 5px -2px #aaa;
+	    transition: all .3s ease-in-out;
+	}
+
+	.skwp-menu-btn span {
+		display: block;
+	    width: 25px;
+	    height: 3px;
+	    background-color: #7ba1ea;
+	    position: absolute;
+	    top: 19px;
+	    left: 8px;
+	    border-radius: 2px;
+	    transition: background-color .3s ease-in-out;
+	}
+
+	.skwp-menu-btn span.top {
+		top: 11px;
+	}
+
+	.skwp-menu-btn span.bot {
+	    top: 27px;
+	}
+
+	.skwp-menu-btn.active .mid {
+		opacity: 0;
+	}
+
+	.skwp-menu-btn.active span.top {
+		transform: rotate(45deg);
+		top: 18px;
+	}
+
+	.skwp-menu-btn.active span.bot {
+		top: 18px;
+		transform: rotate(-45deg);
+	}
+
+	.skwp-navigation-inner {
+		box-shadow: none;
+	}
+
+	.skwp-masking {
+		position: absolute;
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    background: rgba(0,0,0,0.6);
+	}
+
+	.skwp-masking {
+		position: fixed;
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    background: rgba(0,0,0,0.6);
+	    z-index: -1;
+    	display: none;
+	}
+
+	.skwp-masking.open {
+		position: fixed;
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    background: rgba(0,0,0,0.6);
+	    z-index: 11;
+    	display: block;
+	}
+
+	.skwp-menu-item.active:after {
+		display: none;
+	}
+}

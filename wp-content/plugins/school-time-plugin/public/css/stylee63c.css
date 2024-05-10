@@ -1,0 +1,79 @@
+.scp-shortcode h1, .scp-shortcode h2, .scp-shortcode h3, .scp-shortcode h4, .scp-shortcode h5, .scp-shortcode h6 { margin-top: 2px; margin-bottom: 2px; line-height: 14px; }
+
+.scp-shortcode p { margin: 0; }
+
+.scp-icon-bullet-text-icon, .scp-icon-bullet-text-text { float: left; }
+
+.scp-icon-bullet-text-text { padding-top: 5px; margin-bottom: 10px; }
+
+.scp-icon-bullet-text-text p { font-size: 11px; font-weight: bold; line-height: 17px; }
+
+.scp-ribbon-wrapper { position: relative; }
+
+.scp-ribbon-text { position: relative; }
+
+/* Events */
+.linp-tribe-events-wrap { overflow: hidden; background: #313236; color: #fff; }
+
+.linp-tribe-events-wrap .widget-title { background-color: #F35F46; padding: 18px 18px 18px 62px; position: relative; margin-top: 0; margin-bottom: 0; font-size: 18px; font-weight: 500; }
+
+.linp-tribe-events-wrap .widget-title i { position: absolute; top: 17px; left: 17px; font-size: 29px; }
+
+.linp-tribe-events { list-style: none; margin: 0; padding: 0; }
+
+.linp-tribe-events .event { padding: 13px 20px; border-bottom: 1px solid #444; display: table; width: 100%; }
+
+.linp-tribe-events .event .date { display: table-cell; vertical-align: middle; width: 25px; }
+
+.linp-tribe-events .event .date span { display: block; }
+
+.linp-tribe-events .event .date .month { font-weight: bold; text-transform: uppercase; font-size: 12px; text-align: center; line-height: 21px; }
+
+.linp-tribe-events .event .date .day { font-weight: bold; text-transform: uppercase; font-size: 18px; text-align: center; font-family: Raleway; line-height: 18px; }
+
+.linp-tribe-events .event .date .divider { display: block; margin: 5px auto; }
+
+.linp-tribe-events .event .info { display: table-cell; vertical-align: middle; padding-left: 17px; }
+
+.linp-tribe-events .event .info .title { font-size: 14px; line-height: 19px; }
+
+.linp-tribe-events-link { padding: 20px; margin-bottom: 0; font-weight: 400; font-family: Raleway; }
+
+.linp-tribe-events .inner-circle { position: relative; width: 100%; background-color: #639; height: 100%; border-radius: 50%; }
+
+.wh-content-box { position: relative; }
+
+.wh-content-box .wh-content-box-link { position: absolute; width: 100%; height: 100%; top: 0; left: 0; }
+
+@media (max-width: 767px) { .scp-icon-bullet-text { width: 100%; margin-bottom: 18px; }
+  /*.scp-shortcode-separator { height: 1px !important; visibility: hidden; }*/ }
+.linp-post-list .item { position: relative; min-height: 117px; }
+.linp-post-list .item .img-container { overflow: hidden; position: relative; width: 100%; height: auto; margin-bottom: 15px; }
+.linp-post-list .item .img-container a:before { content: ''; display: block; position: absolute; width: 100%; height: 100%; background: transparent; z-index: 2; top: 0; left: 0; z-index: 1; transition: background 0.3s; -webkit-transition: background 0.3s; }
+.linp-post-list .item .img-container a:hover:before { background: rgba(0, 0, 0, 0.3); }
+.linp-post-list .item .img-container a:hover img { transform: translateZ(0) scale(1.1, 1.1); -moz-transform: translateZ(0) scale(1.1, 1.1); -webkit-transform: translateZ(0) scale(1.1, 1.1); -ms-transform: none; }
+.linp-post-list .item .img-container a img { transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; }
+.linp-post-list .item .img-container .date { z-index: 999; position: absolute; padding: 5px 13px; background-color: #F35F46; top: 18px; left: 16px; text-align: center; font-weight: bold; text-transform: uppercase; font-size: 12px; }
+.linp-post-list .item .img-container .date .month { border-bottom: 1px solid #FFF; padding: 0 5px; line-height: 21px; }
+.linp-post-list .item .img-container .date .day { font-size: 18px; }
+.linp-post-list .item .data .read-more { font-weight: 400; font-family: Raleway; }
+.linp-post-list .item .data .content { line-height: 21px; font-size: 15px; }
+.linp-post-list .item .data h1, .linp-post-list .item .data h2, .linp-post-list .item .data h3, .linp-post-list .item .data h4, .linp-post-list .item .data h5, .linp-post-list .item .data h6 { font-weight: normal; margin-top: 0; margin-bottom: 4px; }
+.linp-post-list .item .data h3 a { font-size: 18px; line-height: 24px; }
+.linp-post-list .item .meta-data { margin-bottom: 3px; font-weight: 600; }
+.linp-post-list .item .meta-data i { position: relative; top: 4px; font-size: 14px; }
+.linp-post-list .item .meta-data span { margin-right: 11px; font-size: 12px; font-weight: normal; }
+.linp-post-list .item .meta-data .author { font-size: 12px; text-transform: uppercase; }
+.linp-post-list .item .meta-data .author i { font-size: 11px; top: 1px; position: relative; }
+.linp-post-list .item i { margin-right: 5px; }
+
+@media (max-width: 768px) { .linp-post-list .item .img-container .date { font-size: 9px; padding: 1px 11px; top: 5px; left: 5px; }
+  .linp-post-list .item .img-container .date .month { padding: 0; }
+  .linp-post-list .item .img-container .date .day { font-size: 14px; } }
+.st-video-popup .vc_figure { position: relative; }
+
+.st-video-popup .box { position: absolute; top: 0; right: 0; margin: 10px; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #fff; cursor: pointer; }
+
+.st-video-popup .tri { position: relative; top: 50%; left: 50%; width: 0; margin-top: -7px; margin-left: -3px; height: 0; border-top: 7px solid transparent; border-bottom: 7px solid transparent; border-left: 9px solid #fff; }
+
+.wh-theme-icon { line-height: 1em; }
